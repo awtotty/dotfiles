@@ -5,11 +5,12 @@ set backup
 set ruler
 set showcmd
 set incsearch
-" Line numbering on
-set nu
+set nu " Line numbering on
 syntax on
 set hlsearch
 filetype plugin indent on
+set nocompatible
+set hidden
 """
 
 """ Plugins
@@ -24,6 +25,9 @@ Plug 'KeitaNakamura/neodark.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'https://github.com/tpope/vim-fugitive.git'
+Plug 'airblade/vim-gitgutter'
+Plug 'https://github.com/vim-syntastic/syntastic.git'
+Plug 'https://github.com/enricobacis/vim-airline-clock.git'
 
 " Initialize plugin system
 call plug#end()
