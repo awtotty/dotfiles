@@ -47,7 +47,3 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 """
-
-
-" Terminal theme? 
-let g:neodark#use_custom_terminal_theme = 1 " default: 0
