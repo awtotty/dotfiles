@@ -1,0 +1,16 @@
+session_name: awtm3
+windows:
+- window_name: dust in the window
+  layout: even-horizontal
+  panes:
+      - shell_command:
+          - clear
+      - shell_command:
+          - nvim
+      - shell_command: 
+          # split screen in to 25-50-25
+          - tmux resize-pane -t 0 -L $(($COLUMNS/8)) 
+          - tmux resize-pane -t 2 -R $(($COLUMNS/8))
+          - tmux last-pane
+          - clear
+          - apt-get moo

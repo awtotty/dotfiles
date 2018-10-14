@@ -1,0 +1,7 @@
+session_name: awtm1
+windows:
+- window_name: dust in the window
+  layout: even-horizontal
+  panes:
+      - shell_command:
+          - nvim
