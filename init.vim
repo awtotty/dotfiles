@@ -20,8 +20,10 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 " Make sure you use single quotes
 Plug 'https://github.com/joshdick/onedark.vim.git'
-Plug 'scrooloose/nerdtree'
 Plug 'KeitaNakamura/neodark.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'vim-airline/vim-airline'
+Plug 'https://github.com/tpope/vim-fugitive.git'
 
 " Initialize plugin system
 call plug#end()
