@@ -126,4 +126,3 @@ eval "$(_TMUXP_COMPLETE=source tmuxp)"
 alias tml='tmux ls'
 alias tma='tmux attach -t'
 alias tmk='tmux kill-session -t'
-alias tmp='tmuxp load'
