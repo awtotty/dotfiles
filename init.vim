@@ -30,11 +30,18 @@ Plug 'airblade/vim-gitgutter'
 Plug 'https://github.com/vim-syntastic/syntastic.git'
 Plug 'https://github.com/enricobacis/vim-airline-clock.git'
 Plug 'https://github.com/iCyMind/NeoSolarized'
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Initialize plugin system
 call plug#end()
 """
 
+""" Completion
+let g:deoplete#enable_at_startup = 1
+" <TAB>: completion.
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+" Don't go to new line on <ENTER> when selecting from completion options
+set completeopt+=noinsert
 
 """ Visuals
 " Set theme
