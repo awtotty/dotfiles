@@ -24,10 +24,12 @@ Plug 'https://github.com/joshdick/onedark.vim.git'
 Plug 'KeitaNakamura/neodark.vim'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'https://github.com/tpope/vim-fugitive.git'
 Plug 'airblade/vim-gitgutter'
 Plug 'https://github.com/vim-syntastic/syntastic.git'
 Plug 'https://github.com/enricobacis/vim-airline-clock.git'
+Plug 'https://github.com/iCyMind/NeoSolarized'
 
 " Initialize plugin system
 call plug#end()
@@ -35,11 +37,11 @@ call plug#end()
 
 
 """ Visuals
-" Set the background theme to dark
-" set background = dark
-
 " Set theme
-colorscheme neodark
+"colorscheme neodark
+colorscheme NeoSolarized
+set background=dark
+let g:airline_theme='solarized'
 
 " This line enables the true color support.
 set termguicolors
