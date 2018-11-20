@@ -31,6 +31,7 @@ Plug 'https://github.com/vim-syntastic/syntastic.git'
 Plug 'https://github.com/enricobacis/vim-airline-clock.git'
 Plug 'https://github.com/iCyMind/NeoSolarized'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'zchee/deoplete-jedi'
 
 " Initialize plugin system
 call plug#end()
@@ -38,6 +39,8 @@ call plug#end()
 
 """ Completion
 let g:deoplete#enable_at_startup = 1
+let g:python_host_prog='~/anaconda3/envs/py2/bin/python'
+let g:python3_host_prog='~/anaconda3/envs/py3/bin/python'
 " <TAB>: completion.
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " Don't go to new line on <ENTER> when selecting from completion options
