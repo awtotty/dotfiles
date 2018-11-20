@@ -64,11 +64,9 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" tab navigation
-nnoremap <C-N> gT
-nnoremap <C-M> gt
-" open <C-M> for tab nav
-let NERDTreeMapMenu = '\m'
+" tab navigation (left=gT, right=gt)
+nnoremap <C-B> gT
+nnoremap <C-N> gt
 
 """
 
