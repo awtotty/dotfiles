@@ -32,6 +32,7 @@ Plug 'https://github.com/enricobacis/vim-airline-clock.git'
 Plug 'https://github.com/iCyMind/NeoSolarized'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'zchee/deoplete-jedi'
+Plug 'scrooloose/nerdcommenter'
 
 " Initialize plugin system
 call plug#end()
