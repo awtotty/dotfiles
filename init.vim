@@ -1,3 +1,4 @@
+""" Place in ~/.config/nvim/init.vim
 
 """ Basic prefs
 set autoindent
